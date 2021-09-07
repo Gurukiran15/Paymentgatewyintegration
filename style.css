@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.banner
+{
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit:fill;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    
+}
+.banner .content
+{
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner .content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.content p{
+    color: aqua;
+    font-weight: bold;
+}
+.content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+ .banner #header {
+   
+    position: relative;
+    margin-top: -600px;
+    /* padding: 20px 10px; */
+    float: left;
+   
+ }
+
+
+ .banner #header a {
+  
+  
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 6px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 20px;
+  margin-left: 20px;
+  z-index: 1;
+ 
+}
+.banner #header .rightSection{
+  
+  margin-right: -1460px;
+}
+
+#header .rightSection a:hover{
+  background: #ffbb00;
+  color: #fff;
+}
+#header a.active
+{
+  background: #ffbb00;
+  color: #fff;
+}
+.banner #header .rightSection {
+  float: right;
+}
